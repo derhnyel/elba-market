@@ -1,21 +1,43 @@
 const express = require('express');
+const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+const passport = require('passport');
+const cors = require('cors');
+
+const dotenv = require('dotenv');
+dotenv.config();
+
+const auth = require('./routes/api/v1/auth');
+const product = require('./routes/api/v1/product');
 
 const app = express();
-const port = process.env.PORT || 5000;
 
+// Enable cors middleware
+app.use(cors());
+
+// Body parser middleware
+app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
 
-app.get('/api/hello', (req, res) => {
-  res.send({ express: 'Hello From Express' });
+// DB Config
+const db = process.env.localURI;
+
+// Connect to the mongodb
+mongoose.connect(process.env.mongoURI || db, { useNewUrlParser: true, useUnifiedTopology: true })
+    .then(() => console.log("MongoDB Connected"))
+    .catch((err) => console.log(err));
+
+// Passport Middleware
+app.use(passport.initialize());
+// Passport Config
+require('./config/passport')(passport);
+
+// Use Routes
+app.use('/api/v1/auth', auth);
+app.use('/api/v1/product', product);
+
+const port = process.env.PORT || 4000;
+
+app.listen(port, () => {
+    console.log(`App has Started on port ${port}`);
 });
-
-app.post('/api/world', (req, res) => {
-  console.log(req.body);
-  res.send(
-    `I received your POST request. This is what you sent me: ${req.body.post}`,
-  );
-});
-
-app.listen(port, () => console.log(`Server Listening on port ${port}`));
