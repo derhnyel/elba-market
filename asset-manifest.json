@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/elba-market/static/js/main.038af91c.chunk.js",
-    "main.js.map": "/elba-market/static/js/main.038af91c.chunk.js.map",
+    "main.js": "/elba-market/static/js/main.3335fec4.chunk.js",
+    "main.js.map": "/elba-market/static/js/main.3335fec4.chunk.js.map",
     "runtime-main.js": "/elba-market/static/js/runtime-main.6a4929a5.js",
     "runtime-main.js.map": "/elba-market/static/js/runtime-main.6a4929a5.js.map",
-    "static/js/2.3e6a4e7c.chunk.js": "/elba-market/static/js/2.3e6a4e7c.chunk.js",
-    "static/js/2.3e6a4e7c.chunk.js.map": "/elba-market/static/js/2.3e6a4e7c.chunk.js.map",
+    "static/js/2.6fcb1cfd.chunk.js": "/elba-market/static/js/2.6fcb1cfd.chunk.js",
+    "static/js/2.6fcb1cfd.chunk.js.map": "/elba-market/static/js/2.6fcb1cfd.chunk.js.map",
     "index.html": "/elba-market/index.html",
-    "precache-manifest.7da13e0dfedf409aa0e165874b460662.js": "/elba-market/precache-manifest.7da13e0dfedf409aa0e165874b460662.js",
+    "precache-manifest.3d0c3bf3a8ce6ed5cf03bf6b0478a1fe.js": "/elba-market/precache-manifest.3d0c3bf3a8ce6ed5cf03bf6b0478a1fe.js",
     "service-worker.js": "/elba-market/service-worker.js",
-    "static/js/2.3e6a4e7c.chunk.js.LICENSE.txt": "/elba-market/static/js/2.3e6a4e7c.chunk.js.LICENSE.txt",
+    "static/js/2.6fcb1cfd.chunk.js.LICENSE.txt": "/elba-market/static/js/2.6fcb1cfd.chunk.js.LICENSE.txt",
     "static/media/elba.png": "/elba-market/static/media/elba.1a038286.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6a4929a5.js",
-    "static/js/2.3e6a4e7c.chunk.js",
-    "static/js/main.038af91c.chunk.js"
+    "static/js/2.6fcb1cfd.chunk.js",
+    "static/js/main.3335fec4.chunk.js"
   ]
 }

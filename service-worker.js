@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/elba-market/precache-manifest.7da13e0dfedf409aa0e165874b460662.js"
+  "/elba-market/precache-manifest.3d0c3bf3a8ce6ed5cf03bf6b0478a1fe.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "80fd2199ba19a45da7f0e37bae1f41a8",
+    "revision": "63e023995100b85ade029736ad4d1747",
     "url": "/elba-market/index.html"
   },
   {
-    "revision": "73b95d561db0c79c7114",
-    "url": "/elba-market/static/js/2.3e6a4e7c.chunk.js"
+    "revision": "d3c4c879d0f6dee6d36b",
+    "url": "/elba-market/static/js/2.6fcb1cfd.chunk.js"
   },
   {
     "revision": "b92b369c485a56d25a5a7495ecf46b59",
-    "url": "/elba-market/static/js/2.3e6a4e7c.chunk.js.LICENSE.txt"
+    "url": "/elba-market/static/js/2.6fcb1cfd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7a344bac0c69e2640bbc",
-    "url": "/elba-market/static/js/main.038af91c.chunk.js"
+    "revision": "0978078f786df1e641d7",
+    "url": "/elba-market/static/js/main.3335fec4.chunk.js"
   },
   {
     "revision": "690e4a1f18a44e9df635",
