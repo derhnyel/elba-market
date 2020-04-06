@@ -37,8 +37,8 @@ const Product = () => {
 
                 {/* <!-- Button --> */}
                 <a
-                  className="btn btn-sm btn-block btn-primary"
-                  href="product.html"
+                  className="btn btn-sm btn-block btn-success"
+                  href="/product/7894567"
                 >
                   More Product Info <i className="fe fe-info ml-2"></i>
                 </a>
@@ -386,9 +386,9 @@ const Product = () => {
                         {/* <!-- Submit --> */}
                         <button
                           type="submit"
-                          className="btn btn-block btn-dark mb-2"
+                          className="btn btn-block btn-success mb-2"
                         >
-                          Add to Cart{" "}
+                          Add to Cart
                           <i className="fe fe-shopping-cart ml-2"></i>
                         </button>
                       </div>

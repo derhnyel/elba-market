@@ -3976,7 +3976,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    color: #ff6f61;
+    color: #28bb74;
     background-color: transparent;
     border-color: #bababa #bababa transparent
 }
@@ -11539,7 +11539,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 }
 
 .text-primary {
-    color: #ff6f61!important
+    color: #28bb74!important;
 }
 
 a.text-primary:focus, a.text-primary:hover {
@@ -11886,8 +11886,8 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 .btn-white-primary:focus, .btn-white-primary:hover {
-    background-color: #ff6f61;
-    border-color: #ff6f61;
+    background-color: #28bb74;
+    border-color: #28bb74;
     color: #fff
 }
 
@@ -11898,7 +11898,7 @@ a.text-dark:focus, a.text-dark:hover {
 .btn-white-primary[data-toggle=button].active {
     background-color: #fff;
     border-color: #fff;
-    color: #ff6f61
+    color: #28bb74
 }
 
 .btn-gray-500 {
@@ -13148,15 +13148,16 @@ a.card-img-overlay:hover {
 }
 
 .nav-link.active:focus, .nav-link.active:hover {
-    color: #ff6f61
+    color: #28bb74;
 }
 
 .nav-link:hover {
-    color: #ff6f61
+    color: #28bb74
 }
 
 .nav-link.active {
-    position: relative
+    position: relative;
+    color: #28bb74
 }
 
 .nav-link.active::before {
@@ -15764,7 +15765,7 @@ a.text-decoration-underline:focus, a.text-decoration-underline:hover {
 }
 
 .flickity-page-dots .dot.is-selected {
-    background-color: #ff6f61
+    background-color: #28bb74
 }
 
 .flickity-page-dots-progress .flickity-page-dots {

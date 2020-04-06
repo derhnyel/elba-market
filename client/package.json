@@ -1,7 +1,7 @@
 {
   "name": "elba-market-web",
   "version": "0.1.0",
-  "homepage": "http://derhnyel.github.io/elba-market",
+  "homepage": "http://derhnyel.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",

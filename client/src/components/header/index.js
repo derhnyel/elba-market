@@ -5,7 +5,7 @@ import Logo from '../../assets/img/elba.png'
 class Header extends Component {
     render(){
         return (
-            <nav className="navbar navbar-expand-lg navbar-light bg-white">
+            <nav className="navbar navbar-expand-lg navbar-light bg-white border-bottom">
             <div className="container">
 
             {/* <!-- Brand --> */}

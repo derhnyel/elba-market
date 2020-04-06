@@ -2,7 +2,7 @@ import React from 'react'
 
 const PromoMessage = () => {
     return (
-        <div className="py-3 bg-success bg-pattern mb-4">
+        <div className="py-3 bg-success bg-pattern">
             <div className="container">
                 <div className="row">
                     <div className="col-12">
